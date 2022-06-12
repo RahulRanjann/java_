@@ -3,8 +3,9 @@ import java.util.Scanner;
 
 public class classRoom {
     static public void main(String[] args) {
-        // write your code here
-        Scanner scan = new Scanner(System.in);
+        try (// write your code here
+                Scanner scan = new Scanner(System.in)) {
+        }
         display dis = new display();
         dis.function();
 
@@ -44,5 +45,6 @@ class Zoo {
         String name = sc.nextLine();
         System.out.println("how old are you?");
         int age = sc.nextInt();
+        sc.close();
     }
 }

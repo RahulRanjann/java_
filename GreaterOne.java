@@ -18,6 +18,6 @@ public class GreaterOne {
         } else if (num3 >= num1 && num3 >= num2) {
             System.out.println(num3 + " is greater among these");
         }
-
+        sc.close();
     }
 }

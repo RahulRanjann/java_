@@ -18,6 +18,6 @@ public class RemovingVoble {
             }
 
         }
-
+        sc.close();
     }
 }

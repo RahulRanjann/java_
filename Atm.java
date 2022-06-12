@@ -100,5 +100,6 @@ import java.util.Scanner;
                     System.out.println("Choose the options from above");
                     s= sc.nextInt();
                 }
+                sc.close();
             }
         }
