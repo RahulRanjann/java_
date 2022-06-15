@@ -9,6 +9,7 @@ public class RemovingVoble {
         int mux = string.length() - 1;
         System.out.println(string);
         System.out.println("your name after removing vowels :-");
+        sc.close();
         for (int i = 0; i <= mux; i++) {
 
             if (string.charAt(i) != 'a' && string.charAt(i) != 'e' && string.charAt(i) != 'i' && string.charAt(i) != 'o'
@@ -18,6 +19,5 @@ public class RemovingVoble {
             }
 
         }
-        sc.close();
     }
 }

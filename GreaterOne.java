@@ -10,7 +10,7 @@ public class GreaterOne {
         num2 = sc.nextInt();
         System.out.println("Enter your third no.");
         num3 = sc.nextInt();
-
+        sc.close();
         if (num1 >= num2 && num1 >= num3) {
             System.out.println(num1 + " is greater among these");
         } else if (num2 >= num3 && num2 >= num1) {
@@ -18,6 +18,6 @@ public class GreaterOne {
         } else if (num3 >= num1 && num3 >= num2) {
             System.out.println(num3 + " is greater among these");
         }
-        sc.close();
+       
     }
 }

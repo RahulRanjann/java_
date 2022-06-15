@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class HollowRectangle {
     public static void main(String[] args) {
-        try (Scanner sc = new Scanner(System.in)) {
+         Scanner sc = new Scanner(System.in);
             System.out.println("Enter the no. of column");
             int column = sc.nextInt();
             System.out.println("Enter the no. of row");
@@ -17,9 +17,9 @@ public class HollowRectangle {
                     }
                 }
                 System.out.println();
-            }
         }
-
+        sc.close();
+    }
     }
 
-}
+

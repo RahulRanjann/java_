@@ -30,6 +30,7 @@ class Zoo {
         String name = sc.nextLine();
         System.out.println("How old i'm?");
         int age = sc.nextInt();
+        System.out.println("you entered Name:- "+name+"\n"+"Age:- "+age);
 
     }
 
@@ -38,6 +39,8 @@ class Zoo {
         String name = sc.nextLine();
         System.out.println("How old i'm ?");
         int age = sc.nextInt();
+        System.out.println("you entered Name:- "+name+"\n"+"Age:- "+age);
+        sc.close();
     }
 
     void owner() {
@@ -45,6 +48,7 @@ class Zoo {
         String name = sc.nextLine();
         System.out.println("how old are you?");
         int age = sc.nextInt();
+        System.out.println("you entered Name:- "+name+"\n"+"Age:- "+age);
         sc.close();
     }
 }

@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class leapYear {
     public static void main(String[] args) {
-        try (Scanner sc = new Scanner(System.in)) {
+        Scanner sc = new Scanner(System.in);
             System.out.println("Enter a year to check it is leap year or not");
             int year = sc.nextInt();
 
@@ -20,6 +20,7 @@ public class leapYear {
             } else {
                 System.out.println(" this is not a leap year ");
             }
+            sc.close();
         }
     }
-}
+

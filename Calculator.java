@@ -11,6 +11,7 @@ public class Calculator {
 
             System.out.println("Enter your second no.");
             int num2 = sc.nextInt();
+            sc.close();
 
             switch (sign) {
                 case '+': {
@@ -44,5 +45,6 @@ public class Calculator {
 
             }
         }
+      
     }
 }
