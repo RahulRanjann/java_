@@ -13,7 +13,26 @@ public class ButterFly {
                 System.out.print("*");
             }
             // for spaces
-            for (int j = 1; j <= (2*(length-1)); j++) {
+            int spaces = 2*(length-i);
+            for (int j = 1; j <= spaces; j++) {
+                System.out.print(" ");                
+
+            }
+            //for second half triangle
+            for (int j = 1; j <= i; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+        for (int i = length; i >= 1; i--) {
+        
+             //for second half triangle
+             for (int j = 1; j <= i; j++) {
+                System.out.print("*");
+            }
+            // for spaces
+            int spaces = 2*(length-i);
+            for (int j = 1; j <= spaces; j++) {
                 System.out.print(" ");                
 
             }
@@ -24,6 +43,5 @@ public class ButterFly {
             System.out.println();
         }
         
-        sc.close();
     }
 }
