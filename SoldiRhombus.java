@@ -16,7 +16,7 @@ public class SoldiRhombus {
             // for Rhombus
             for (int j = 1; j <= row; j++) {
                 System.out.print("* ");
-            }    
+            }
             System.out.println();
         }
 
