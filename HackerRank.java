@@ -1,4 +1,3 @@
-import java.rmi.server.SocketSecurityException;
 import java.util.Scanner;
 
 public class HackerRank {
