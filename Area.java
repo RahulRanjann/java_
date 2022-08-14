@@ -7,7 +7,7 @@ class Rectangle1{
     int rectArea(){
         return (length * width);
     }
-
+    
 }
 
 public class Area {
@@ -16,5 +16,6 @@ public class Area {
         Rectangle1 rect1 = new Rectangle1(15,10);
         int area = rect1.rectArea();
         System.out.println("Area "+area);
+        System.out.println("");
     }
 }
