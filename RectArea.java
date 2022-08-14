@@ -1,23 +1,22 @@
 import java.util.Scanner;
 
-class Rectangle{
+class Rectangle {
 
-    int length, width; // instance variable
+    int length, width; // instance variablesw
 
-    void getData(int x, int y){
+    void getData(int x, int y) {
         length = x;
         width = y;
     }
 
-    int rectArea(){
+    int rectArea() {
 
-        int area = length*width;
+        int area = length * width;
         return area;
     }
 }
 
-
-class RectArea{
+class RectArea {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int area1, area2;
@@ -28,8 +27,8 @@ class RectArea{
         area1 = rect1.length * rect1.width;
         rect2.length = 15;
         rect2.width = 25;
-        area2 = rect2.length * rect2.width; 
-        System.out.println("AREA1 ="+ area1);
-        System.out.println("AREA2="+ area2);
+        area2 = rect2.length * rect2.width;
+        System.out.println("AREA1 =" + area1);
+        System.out.println("AREA2=" + area2);
     }
 }
