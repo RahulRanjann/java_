@@ -1,6 +1,6 @@
-class Rectangle{
+class Rectangle1{
     int length, width;
-    Rectangle(int x, int y){        //parameterized Constructor
+    Rectangle1(int x, int y){        //parameterized Constructor
         length = x;
         width = y;
     }
@@ -13,7 +13,7 @@ class Rectangle{
 public class Area {
     public static void main(String[] args) {
 
-        Rectangle rect1 = new Rectangle(15,10);
+        Rectangle1 rect1 = new Rectangle1(15,10);
         int area = rect1.rectArea();
         System.out.println("Area "+area);
     }
