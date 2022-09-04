@@ -59,10 +59,11 @@ public class Inert1D {
                 System.out.println("Enter a number to insert value in the array ");
                 int insert = sc.nextInt();
 
-                 for (int i = 0; i < arr.length; i++) {
-                    arr[i]
+                 for (int i = arr.length-1; i > index-1; i--) {
+                    arr[i] = arr[i-1];
                  }
-
+                 arr[index-1] = insert;
+                 System.out.println("The new array is");
                  for (int i = 0; i < n; i++) {
                     System.out.println(arr[i]);
                 }
