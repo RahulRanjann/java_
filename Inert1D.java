@@ -13,7 +13,7 @@ public class Inert1D {
             arr[i] = sc.nextInt();
             
         }
-        System.out.println("choose one of these insert or delete data from the array");
+        System.out.println("choose one of these \"insert\" or \"delete\" data from the array");
         sc.nextLine();
         String key = sc.nextLine();
         
@@ -54,7 +54,7 @@ public class Inert1D {
                 break;
 
             case "insert" :
-            System.out.println("Enter a number where you want to insert data in aray ");
+            System.out.println("Enter a number(index no.) where you want to insert data in aray ");
                 int index = sc.nextInt();
                 System.out.println("Enter a number to insert value in the array ");
                 int insert = sc.nextInt();
