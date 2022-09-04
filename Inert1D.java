@@ -53,10 +53,24 @@ public class Inert1D {
 
                 break;
 
-                case "insert" :
-        
+            case "insert" :
+            System.out.println("Enter a number where you want to insert data in aray ");
+                int index = sc.nextInt();
+                System.out.println("Enter a number to insert value in the array ");
+                int insert = sc.nextInt();
+
+                 for (int i = 0; i < arr.length; i++) {
+                    arr[i]
+                 }
+
+                 for (int i = 0; i < n; i++) {
+                    System.out.println(arr[i]);
+                }
+
+
+                
             default:
-                break;
+                
         }
     }
 }
