@@ -1,4 +1,3 @@
-package lab4;
 import java.*;
 import java.util.Scanner;
 
