@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class PalandromNo {
     public static void main(String[] args) {
         System.out.println("Enter Number you want to reverse: ");
