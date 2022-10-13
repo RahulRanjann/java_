@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class MightyMightyMit {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a no.");
+        int n = sc.nextInt();
+
+        for (int i = 1; i <= n; i++) {
+            if(i%2 == 0 && i%3 == 0)
+            {
+                System.out.print("MightyMightyMIT ");
+            }
+            else if( i%2 == 0)
+            {
+                System.out.print("MightyMighty ");
+            }
+            else if(i%3 == 0)
+            {
+                System.out.print("MIT ");
+            }           
+            else if(i%2 != 0 && i%3 != 0){
+
+                System.out.print(". ");
+            }
+           
+        }
+    }
+}
