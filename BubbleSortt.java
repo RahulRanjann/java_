@@ -12,6 +12,8 @@ public class BubbleSortt {
             arr1[i]= sc.nextInt();
         }
 
+
+        System.out.println("After sorting the array ");
         //bubble sort
         for (int i = 0; i < arr1.length; i++) {
             int temp ;
@@ -25,9 +27,9 @@ public class BubbleSortt {
                 }
             }            
         }
-
+       
         for (int i = 0; i < arr1.length; i++) {
-            System.out.println("After sorting the array "+arr1[i]);
+            System.out.print(" "+arr1[i]);
         }
     }
 }

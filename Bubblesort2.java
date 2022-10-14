@@ -37,7 +37,7 @@ public class Bubblesort2 {
                 }
             }
         }
-        System.out.println("sorting in Descendig order");
+        System.out.println("\nsorting in Descendig order");
         for (int i = 0; i < arr.length; i++) {
                 System.out.print(arr[i]+" ");
         }
