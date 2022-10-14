@@ -1,4 +1,4 @@
-package mypackage.p1; // this will creat a folder named mypackage and inside mypackage folder will create p1 foldre and now when we'll compile {javac -q . package.java} the class file will created inside of the Package class
+// package mypackage.p1;             // this will creat a folder named mypackage and inside mypackage folder will create p1 foldre and now when we'll compile {javac -q . package.java} the class file will created inside of the Package class
 public class Package {
     public static int max(int a, int b, int c) {
         

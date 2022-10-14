@@ -1,5 +1,5 @@
 
-import mypackage.p1.Package; // import package |||   inside myPackage folder we have p1 folder and  ther we get the package file(.java)
+// import mypackage.p1.Package; // import package |||   inside myPackage folder we have p1 folder and  ther we get the package file(.java)
 
 public class Main {
     public static void main(String[] args) {
