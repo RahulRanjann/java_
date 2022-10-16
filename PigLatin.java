@@ -10,7 +10,7 @@ public class PigLatin {
         String pigLatin = "";
         int count = 0;
         char last = name.charAt(0);
-        for (int i = 1; i <= 4; i++) {
+        for (int i = 1; i < name.length(); i++) {
             pigLatin = pigLatin + name.charAt(i);
             count++;
         }
