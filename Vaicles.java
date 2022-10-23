@@ -56,10 +56,13 @@ class Bike extends VaeclesPart{
 
 public class Vaicles {
     public static void main(String[] args) {
+
         Car obj = new Car();
         obj.wheels();
         obj.accelerator();
         obj.breakk();
+
+        
         System.out.println("\n");
         Bike obj1 = new Bike();
         obj1.wheels();
