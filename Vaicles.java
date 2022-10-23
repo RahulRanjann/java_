@@ -1,7 +1,5 @@
 import java.*;
 
-import javax.sound.sampled.SourceDataLine;
-
 abstract class VaeclesPart{
     abstract void wheels();
     abstract void breakk();
