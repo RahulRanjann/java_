@@ -7,7 +7,7 @@ public class Aditya {
         String name = input.nextLine();
         System.out.println("how many time you want to print your name ");
         int n = input.nextInt();
-        
+        input.close();
         while(n>0)
         {
             System.out.println(name);
