@@ -1,4 +1,4 @@
-import java.*;
+
 
 abstract class VaeclesPart{
     abstract void wheels();
@@ -19,13 +19,13 @@ class Car extends VaeclesPart{
 
     // @Override
     void breakk() {
-        // TODO Auto-generated method stub
+       
         System.out.println("car have 3 break");
     }
 
     // @Override
     void accelerator() {
-        // TODO Auto-generated method stub
+      
         System.out.println("250 km/s");
     }
 
@@ -35,20 +35,20 @@ class Bike extends VaeclesPart{
 
     // @Override
     void wheels() {
-        // TODO Auto-generated method stub
+        
         System.out.println("aa G bike hai ");
         System.out.println("only 2");
     }
 
     // @Override
     void breakk() {
-        // TODO Auto-generated method stub
+        
         System.out.println("G bus 2 he hai ");
     }
 
     // @Override
     void accelerator() {
-        // TODO Auto-generated method stub
+        
         System.out.println("180 km/s");
     }
     

@@ -43,7 +43,7 @@ public class Bubblesort2 {
         }
         
 
-
+            sc.close();
     }
     
 }
