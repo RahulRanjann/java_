@@ -14,7 +14,7 @@ public class Quesion2 {
             
             e.Err();
         }
-       
+       d.display();
 
     }
 }
@@ -61,5 +61,16 @@ class CreateDate{
         System.out.println("Enter a year");
         this.year = sc.nextInt();
         
+    }
+    void display()
+    {
+        if(year != 0)
+        {
+            System.err.println("The date is :-"+this.day+"/"+this.months+"/"+this.year);
+        }
+        else
+        {
+            System.out.println("Envalid date");
+        }
     }
 }
