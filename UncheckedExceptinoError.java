@@ -16,5 +16,6 @@ public class UncheckedExceptinoError {
         } catch (UncheckedException e) {
             System.err.println(e);
         }
+        System.out.println("working");;
     }
 }
