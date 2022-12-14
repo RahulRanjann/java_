@@ -42,5 +42,8 @@ public class Join {
         t1.join();
         MyThread2 t2 =new MyThread2();
         t2.start();
+       // String
+       Integer
+
     }
 }
